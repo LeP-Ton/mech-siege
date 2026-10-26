@@ -1,0 +1,1281 @@
+/* 装甲舱与战役大厅：厚重轮廓、琥珀操作色和完整场景构图。 */
+:root {
+  --orange: #ffbd67;
+  --cyan: #a5e7d7;
+  --muted: #8b9eaf;
+}
+body {
+  background: #0d1820;
+}
+.app {
+  background: radial-gradient(ellipse at 70% 0, #31455055, transparent 60%), #0d1820;
+}
+.sidebar {
+  inset: 0 0 auto;
+  width: 100%;
+  height: 90px;
+  padding: 0 32px;
+  flex-direction: row;
+  align-items: center;
+  gap: 38px;
+  background: linear-gradient(#23323d, #111c25);
+  border: 0;
+  border-bottom: 3px solid #070e14;
+  box-shadow:
+    0 2px 0 #64747b44,
+    0 8px 20px #0004;
+}
+.brand {
+  padding: 0;
+  font-size: 27px;
+  font-style: italic;
+  letter-spacing: 2px;
+  text-shadow: 0 3px #0008;
+}
+.brand-icon {
+  width: 47px;
+  height: 48px;
+  border-radius: 4px 13px 4px 13px;
+  border: 2px solid #ffe1a7;
+  background: linear-gradient(135deg, #ffe4a6, #e98f3c);
+  box-shadow:
+    3px 4px 0 #0008,
+    inset 0 -5px 0 #a65c2e;
+}
+.brand small {
+  color: #d5a76d;
+  font-size: 8px;
+  letter-spacing: 5px;
+}
+.brand > span:last-child {
+  display: block;
+}
+.sidebar nav .nav-item > span,
+.sidebar nav .nav-item small {
+  display: inline-block;
+}
+.nav-label,
+.squad-note,
+.local-badge {
+  display: none;
+}
+.sidebar nav {
+  display: flex;
+  height: 100%;
+  gap: 3px;
+}
+.nav-item {
+  width: auto;
+  padding: 0 22px;
+  height: 100%;
+  border-radius: 0;
+  color: #a0acb7;
+  font-weight: 700;
+  font-size: 13px;
+  gap: 10px;
+}
+.nav-item.active {
+  background: linear-gradient(0deg, #bb823c28, transparent);
+  border: 0;
+  color: #ffcf84;
+}
+.nav-item.active:before {
+  left: 18px;
+  right: 18px;
+  bottom: 0;
+  width: auto;
+  height: 4px;
+  border-radius: 0;
+  background: #ffd18b;
+  box-shadow: 0 -5px 24px #efa94d44;
+}
+.nav-item.active i {
+  display: none;
+}
+.nav-item small {
+  border-radius: 2px;
+  background: #111c24;
+  color: #c0b18c;
+  border-color: #726044;
+}
+.sidebar-bottom {
+  display: flex;
+  gap: 4px;
+  margin: 0 0 0 auto;
+  height: 100%;
+}
+.sidebar-bottom .nav-item {
+  padding: 0 12px;
+}
+.sidebar-bottom .nav-item span {
+  display: none;
+}
+.main-content {
+  margin: 0;
+  padding-top: 90px;
+}
+.topbar {
+  height: 42px;
+  border: 0;
+  background: #070e1477;
+  padding: 0 40px;
+}
+.topbar-right .commander-avatar,
+.commander-label,
+.version {
+  display: none;
+}
+.topbar > div {
+  font-size: 10px;
+}
+.page-content {
+  max-width: 1640px;
+  margin: auto;
+  padding: 26px 40px 0;
+}
+.welcome {
+  margin-bottom: 18px;
+}
+.welcome h1 {
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.welcome h1 > span {
+  color: #dca76a;
+}
+.edition-badge {
+  border: 0;
+  background: none;
+  color: #9ab5b3;
+}
+.hero {
+  min-height: clamp(395px, 40vw, 560px);
+  border: 1px solid #7d7965;
+  border-radius: 3px 24px 3px 24px;
+  box-shadow:
+    0 5px 0 #030a0e,
+    0 0 0 4px #263640,
+    0 20px 45px #0005;
+  background-position: center 57%;
+}
+.hero:before {
+  background:
+    linear-gradient(90deg, #0d1b27f5 2%, #0d1b27cb 30%, #0d1b2710 65%),
+    linear-gradient(0deg, #0d1923c9, transparent 38%);
+}
+.hero:after {
+  border: 0;
+  inset: 9px;
+  border-top: 2px solid #f9d49a55;
+  border-bottom: 1px solid #c49d6255;
+  border-radius: 1px 14px 1px 14px;
+}
+.hero-copy {
+  width: 66%;
+  padding: 38px 42px 58px;
+}
+.hero .eyebrow {
+  color: #ffdba0;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+.hero h2 {
+  margin: 24px 0 18px;
+  font-size: clamp(40px, 4.6vw, 72px);
+  line-height: 1.2;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  font-style: italic;
+  text-shadow:
+    0 5px 0 #0b1621,
+    3px 8px 0 #0a121b55;
+}
+.hero h2 > span {
+  color: #ffc76e;
+}
+.hero-copy > p {
+  font-size: 13px;
+  line-height: 1.9;
+  color: #c0ced5;
+}
+.hero-actions .btn {
+  min-height: 54px;
+  min-width: 190px;
+  font-size: 16px;
+}
+.btn {
+  border-radius: 3px 10px 3px 10px;
+  font-size: 12px;
+  font-weight: 800;
+}
+.btn.primary {
+  background: linear-gradient(#ffdd8b, #f3ac4d);
+  border: 2px solid #ffe5a4;
+  color: #38281d;
+  box-shadow:
+    0 4px 0 #8e562d,
+    inset 0 -3px 0 #d98c3c;
+  text-shadow: 0 1px #ffe5b288;
+}
+.btn.primary:hover {
+  background: #ffe2a1;
+  box-shadow:
+    0 4px 0 #8e562d,
+    0 0 28px #ffc67533;
+}
+.btn.secondary {
+  background: linear-gradient(#354956, #243440);
+  border-color: #687f86;
+  box-shadow: inset 0 -3px 0 #142630;
+}
+.hero-mission {
+  border-radius: 0;
+  border: 0;
+  border-left: 3px solid #efb364;
+  background: linear-gradient(90deg, #13232dbb, #13232d44);
+  backdrop-filter: blur(5px);
+  right: 30px;
+  padding: 18px 24px;
+}
+.hero-coordinate {
+  left: 42px;
+  font-size: 8px;
+  color: #b0b1a8;
+}
+.hero-facts {
+  font-size: 10px;
+  color: #adc8c5;
+}
+.overview-stats {
+  gap: 0;
+  margin: 26px 0;
+  padding: 5px 0;
+  border-bottom: 1px solid #5e6e6d44;
+}
+.stat {
+  border: 0;
+  border-radius: 0;
+  border-right: 1px solid #53656b55;
+  background: none;
+  box-shadow: none;
+  padding: 12px 24px;
+}
+.stat:last-child {
+  border-right: 0;
+}
+.stat:after {
+  display: none;
+}
+.stat-icon {
+  border: 0;
+  border-radius: 0;
+  background: none !important;
+  color: #c0d6c6;
+}
+.stat strong {
+  font-weight: 800;
+  color: #ffe1ac;
+}
+.section-title h2 {
+  font-size: 21px;
+  font-weight: 850;
+}
+.section-title h2:before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 18px;
+  background: #edb26a;
+  margin-right: 10px;
+  transform: skew(-15deg);
+}
+.map-card {
+  border-radius: 3px 15px 3px 15px;
+  border: 1px solid #52656a;
+  background: linear-gradient(150deg, #273b47, #182832);
+  box-shadow: 0 4px 0 #070e15;
+}
+.map-card:hover {
+  transform: translateY(-4px);
+  border-color: #e4b36b;
+  box-shadow:
+    0 7px 0 #070e15,
+    0 0 22px #e9b66519;
+}
+.map-card-image {
+  height: auto;
+  aspect-ratio: 16/9;
+}
+.map-card-title h3 {
+  font-size: 14px;
+  color: #f1e5cf;
+  font-weight: 800;
+}
+.map-number {
+  color: #f4d196;
+  font-size: 16px;
+  font-style: italic;
+  background: #15212cb5;
+  border-radius: 0;
+}
+.difficulty {
+  border-radius: 2px;
+}
+.theme-tabs button {
+  border-radius: 2px 9px 2px 9px;
+}
+.theme-tabs button.active {
+  color: #ffda9c;
+  border-color: #b08d56;
+  background: #5a492d55;
+}
+.random-banner,
+.commander-tip,
+.seed-controls,
+.map-detail-preview,
+.record-table,
+.campaign-progress {
+  border-radius: 3px 16px 3px 16px;
+  background-color: #1b2c36;
+  border-color: #52636a;
+}
+.dialog,
+.result-dialog {
+  border-radius: 4px 22px 4px 22px;
+  border: 2px solid #81908c;
+  background: radial-gradient(ellipse at 50% 0, #41555f88, transparent 65%), #14232e;
+  box-shadow:
+    0 0 0 5px #0a141c,
+    0 30px 100px #0009;
+}
+.dialog-title {
+  border-bottom: 1px solid #61716d55;
+  padding-bottom: 14px;
+}
+.dialog-title h2 {
+  color: #ffe0a3;
+  font-weight: 900;
+}
+/* 预览与真实战场使用同一投影；不再叠加格子。 */
+.map-preview,
+.map-preview.large {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: #25333b;
+}
+.map-preview:before {
+  display: none;
+}
+.map-preview > svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* 战斗页由场景撑满可用空间，HUD 悬浮，兵种收进底部装甲卡槽。 */
+.main-content.combat {
+  padding: 0;
+  margin: 0;
+}
+.battle-page {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  height: 100dvh;
+  min-height: 540px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #101d25;
+}
+.battle-header {
+  height: 48px;
+  min-height: 48px;
+  padding: 0 24px;
+  gap: 20px;
+  background: linear-gradient(#2b3b44, #14232d);
+  border-bottom: 2px solid #071018;
+  box-shadow: 0 1px 0 #76888077;
+  z-index: 30;
+}
+.back-link {
+  font-size: 11px;
+  color: #d0d6ce;
+}
+.battle-map-name {
+  margin-right: auto;
+  gap: 10px;
+}
+.battle-map-name b {
+  color: #ffe0a8;
+  font-size: 13px;
+  font-weight: 850;
+  letter-spacing: 1px;
+}
+.seed-label {
+  color: #899b9c;
+  font-size: 9px;
+}
+.battle-header .best-time {
+  position: static;
+  color: #c9b17e;
+  font-size: 10px;
+  white-space: nowrap;
+}
+.best-time b {
+  font-size: 13px;
+  margin-left: 6px;
+}
+.icon-button {
+  border-radius: 3px 8px 3px 8px;
+  border-color: #59737c;
+  background: linear-gradient(#314955, #20323d);
+  color: #c3d7d5;
+}
+.battle-header > .icon-button {
+  width: 30px;
+  height: 30px;
+}
+.battle-shell {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: #28353c;
+  box-shadow: none;
+  overflow: hidden;
+}
+.battle-canvas-wrap {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 0;
+  background: #26343c;
+}
+.battle-canvas {
+  height: 100%;
+  min-height: 0;
+  width: 100%;
+  aspect-ratio: auto;
+}
+.battle-canvas canvas {
+  max-width: none;
+}
+.battle-hud {
+  position: absolute;
+  top: 15px;
+  left: 24px;
+  right: 24px;
+  z-index: 20;
+  padding: 12px 20px 13px;
+  gap: 30px;
+  background: linear-gradient(100deg, #14242dea, #1c2c35dc);
+  border-top: 2px solid #c2c6a888;
+  border-bottom: 3px solid #0c161ed9;
+  clip-path: polygon(
+    0 0,
+    calc(100% - 14px) 0,
+    100% 14px,
+    100% 100%,
+    14px 100%,
+    0 calc(100% - 14px)
+  );
+  box-shadow: 0 6px 15px #0007;
+}
+.hud-time {
+  gap: 10px;
+}
+.hud-time > svg {
+  color: #c9b57a;
+  width: 21px;
+}
+.hud-time > div > span {
+  font-size: 9px;
+  color: #b4c3bc;
+  letter-spacing: 2px;
+}
+.hud-time b {
+  font-size: 29px;
+  font-weight: 850;
+  color: #fff1ca;
+  margin-top: 2px;
+}
+.hud-time > small {
+  font-size: 10px;
+  color: #9bada9;
+}
+.energy-hud,
+.core-hud {
+  width: clamp(160px, 18vw, 255px);
+}
+.energy-hud > span,
+.core-hud > span {
+  color: #c5d4cd;
+  font-size: 11px;
+}
+.energy-hud b,
+.core-hud b {
+  font-size: 24px;
+  font-weight: 800;
+  color: #ffd28a;
+}
+.energy-hud small,
+.core-hud small {
+  color: #9aafa9;
+  font-size: 9px;
+}
+.core-hud b {
+  color: #ffac8e;
+}
+.energy-hud > small {
+  display: none;
+}
+.meter {
+  height: 5px;
+  border-radius: 0;
+  margin-top: 6px;
+  background: #07171d;
+}
+.meter i {
+  border-radius: 0;
+  background: linear-gradient(90deg, #e39e48, #ffe1a1);
+}
+.core-hud .meter i {
+  background: linear-gradient(90deg, #dc775e, #ffbe91);
+}
+.mission-banner {
+  pointer-events: none;
+  position: absolute;
+  top: 109px;
+  left: 29px;
+  z-index: 2;
+  text-shadow:
+    0 2px 6px #0a141bd9,
+    0 1px 0 #162331;
+}
+.mission-banner > span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #ffe5b4;
+}
+.mission-banner i {
+  width: 15px;
+  height: 1px;
+  background: #ffe5b4;
+}
+.mission-banner h1 {
+  font-size: 23px;
+  letter-spacing: 2px;
+  color: #fff4d7;
+  font-weight: 950;
+  font-style: italic;
+  margin-top: 7px;
+}
+.battle-instruction {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  padding: 10px 26px;
+  font-size: 10px;
+  background: linear-gradient(transparent, #0c1a25ed);
+  color: #d4e5d5;
+  pointer-events: none;
+}
+.battle-instruction button {
+  pointer-events: auto;
+}
+.battle-instruction b {
+  color: #ffd28a;
+  font-weight: 800;
+}
+.battle-instruction .key-hint {
+  color: #a6c4bd;
+  font-size: 9px;
+}
+.battle-dock {
+  flex-shrink: 0;
+  position: relative;
+  z-index: 10;
+  padding: 9px max(20px, calc((100vw - 1500px) / 2)) 9px;
+  background: linear-gradient(#354650, #1e303b 8px, #13232e);
+  border-top: 2px solid #82928c;
+  box-shadow:
+    0 -4px 0 #07141b,
+    0 -12px 24px #0005;
+}
+.dock-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+  font-size: 10px;
+  color: #ecd3a5;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+.dock-heading b {
+  color: #8da9a8;
+  font-weight: 400;
+  font-size: 8px;
+}
+.dock-heading > span:last-child {
+  color: #8ca7a7;
+  font-size: 8px;
+  font-weight: 400;
+}
+.unit-cards {
+  margin: 0;
+  gap: 9px;
+}
+.unit-card {
+  height: 100px;
+  padding: 12px 10px 9px 45%;
+  border: 1px solid #637a80;
+  border-bottom: 3px solid #08151e;
+  border-radius: 3px 12px 3px 8px;
+  background:
+    radial-gradient(ellipse at 27% 60%, #72929d40, transparent 65%),
+    linear-gradient(#314956, #20323f);
+  text-align: left;
+  box-shadow: inset 0 2px 0 #b1c8c61a;
+}
+.unit-card:before {
+  left: 7%;
+  width: 38%;
+  bottom: 12px;
+  right: auto;
+  background: #94d9cf15;
+  border: 0;
+}
+.unit-card .portrait {
+  position: absolute;
+  left: 3%;
+  bottom: 8px;
+  width: 43%;
+  height: 87px;
+  margin: 0;
+  filter: drop-shadow(3px 4px 2px #07131a88);
+}
+.unit-card h3 {
+  margin-top: 20px;
+  font-size: clamp(10px, 1.1vw, 15px);
+  font-weight: 900;
+  color: #e3e5d7;
+  white-space: nowrap;
+}
+.unit-key {
+  top: 6px;
+  left: 7px;
+  width: 17px;
+  height: 17px;
+  border: 0;
+  border-radius: 2px;
+  color: #c4d5cc;
+  background: #112631;
+  font-size: 10px;
+  z-index: 4;
+}
+.unit-role {
+  top: 10px;
+  right: 10px;
+  font-size: 8px;
+  color: #a1bdb7;
+}
+.unit-cost {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffd492;
+  gap: 2px;
+}
+.unit-cost > span {
+  font-size: 8px;
+  color: #b3d5c4;
+}
+.unit-card.selected {
+  border: 2px solid #ffdb8b;
+  border-bottom: 3px solid #a37137;
+  background:
+    radial-gradient(ellipse at 20% 50%, #ffc77555, transparent 75%),
+    linear-gradient(#4f5348, #293c3f);
+  box-shadow:
+    inset 0 0 18px #ffce7b12,
+    0 0 14px #ffcf7322;
+}
+.unit-card.selected h3 {
+  color: #ffe4aa;
+}
+.unit-card.selected:after {
+  left: 0;
+  right: auto;
+  width: 4px;
+  top: 27px;
+  height: 46px;
+  background: #ffdf93;
+  border-radius: 0;
+}
+.unit-card.selected .unit-key {
+  color: #30291f;
+  background: #ffdb8b;
+}
+.unit-card.selected .unit-role {
+  color: #efdab4;
+}
+.unit-card:hover {
+  transform: translateY(-2px);
+  border-color: #d1d9bf;
+}
+.selected-description {
+  margin: 7px 0 0;
+  color: #a5b7b1;
+  font-size: 9px;
+  gap: 8px;
+  padding: 0;
+}
+.selected-description > span:last-child {
+  font-size: 8px;
+  color: #819d9b;
+  gap: 10px;
+}
+.canvas-overlay {
+  z-index: 25;
+}
+.canvas-overlay.paused {
+  background: #0b192ba6;
+}
+.paused h2 {
+  font-size: 27px;
+  font-weight: 900;
+  color: #ffe1aa;
+}
+.paused .btn {
+  font-size: 13px;
+  padding: 11px 25px;
+}
+@media (min-width: 1800px) {
+  .battle-header {
+    height: 58px;
+    min-height: 58px;
+    padding: 0 36px;
+  }
+  .battle-hud {
+    top: 23px;
+    left: 36px;
+    right: 36px;
+    padding: 16px 27px;
+  }
+  .hud-time b {
+    font-size: 35px;
+  }
+  .mission-banner {
+    top: 134px;
+    left: 41px;
+  }
+  .mission-banner h1 {
+    font-size: 30px;
+  }
+  .battle-dock {
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+  .unit-card {
+    height: 126px;
+    padding-top: 20px;
+  }
+  .unit-card .portrait {
+    height: 109px;
+  }
+  .unit-card h3 {
+    font-size: 16px;
+  }
+  .unit-cost {
+    font-size: 17px;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 1100px) {
+  .sidebar {
+    padding: 0 19px;
+    gap: 20px;
+    height: 78px;
+  }
+  .brand {
+    font-size: 23px;
+    gap: 9px;
+  }
+  .brand-icon {
+    width: 41px;
+    height: 43px;
+  }
+  .sidebar nav .nav-item {
+    padding: 0 15px;
+    font-size: 12px;
+  }
+  .sidebar nav .nav-item svg {
+    display: none;
+  }
+  .sidebar-bottom .nav-item {
+    padding: 0 8px;
+  }
+  .main-content {
+    padding-top: 78px;
+  }
+  .page-content {
+    padding: 24px 25px 0;
+  }
+  .hero-copy {
+    width: 74%;
+    padding-left: 28px;
+  }
+  .hero h2 {
+    font-size: 44px;
+  }
+  .hero-mission {
+    right: 20px;
+    padding: 12px;
+  }
+  .battle-hud {
+    gap: 20px;
+    left: 16px;
+    right: 16px;
+  }
+  .battle-header {
+    padding: 0 16px;
+  }
+  .unit-card {
+    padding-left: 44%;
+  }
+  .unit-card .portrait {
+    height: 81px;
+  }
+  .unit-role {
+    font-size: 7px;
+    right: 6px;
+  }
+  .unit-cost {
+    font-size: 12px;
+  }
+}
+@media (max-width: 800px) {
+  .sidebar {
+    height: 70px;
+    padding: 0 15px;
+    gap: 15px;
+  }
+  .brand {
+    font-size: 21px;
+  }
+  .brand > span:last-child {
+    display: block;
+  }
+  .brand small {
+    font-size: 6px;
+    letter-spacing: 4px;
+  }
+  .brand-icon {
+    height: 36px;
+    width: 36px;
+  }
+  .sidebar nav {
+    margin-left: auto;
+  }
+  .sidebar nav .nav-item {
+    padding: 0 13px;
+  }
+  .sidebar nav .nav-item svg {
+    display: block;
+  }
+  .sidebar nav .nav-item > span,
+  .sidebar nav .nav-item small {
+    display: none;
+  }
+  .sidebar-bottom {
+    display: flex;
+    margin-left: 0;
+  }
+  .main-content {
+    margin: 0;
+    padding-top: 70px;
+  }
+  .hero-copy {
+    padding-top: 32px;
+    width: 85%;
+  }
+  .hero h2 {
+    font-size: 43px;
+  }
+  .hero-mission {
+    display: none;
+  }
+  .home-maps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .home-maps .map-card-image {
+    height: auto;
+  }
+  .combat {
+    padding: 0;
+  }
+  .battle-header {
+    gap: 12px;
+    padding: 0 13px;
+  }
+  .battle-header .back-link {
+    font-size: 9px;
+  }
+  .battle-map-name {
+    gap: 6px;
+  }
+  .battle-map-name b {
+    font-size: 11px;
+  }
+  .battle-header .best-time {
+    font-size: 8px;
+  }
+  .best-time b {
+    font-size: 10px;
+  }
+  .battle-hud {
+    top: 10px;
+    left: 12px;
+    right: 12px;
+    padding: 10px 13px;
+    gap: 16px;
+  }
+  .hud-time b {
+    font-size: 24px;
+  }
+  .hud-time > small,
+  .hud-time > svg {
+    display: none;
+  }
+  .hud-time > div > span {
+    font-size: 8px;
+  }
+  .energy-hud,
+  .core-hud {
+    width: 135px;
+  }
+  .energy-hud > span,
+  .core-hud > span {
+    font-size: 9px;
+  }
+  .energy-hud b,
+  .core-hud b {
+    font-size: 20px;
+  }
+  .battle-hud > .icon-button {
+    display: none;
+  }
+  .mission-banner {
+    top: 94px;
+    left: 19px;
+  }
+  .mission-banner h1 {
+    font-size: 19px;
+  }
+  .mission-banner > span {
+    font-size: 8px;
+  }
+  .battle-instruction {
+    padding: 9px 14px;
+    font-size: 9px;
+  }
+  .battle-instruction .key-hint {
+    display: none;
+  }
+  .battle-dock {
+    padding: 8px 12px;
+  }
+  .unit-cards {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 6px;
+  }
+  .unit-card {
+    height: 119px;
+    padding: 8px 7px;
+    text-align: center;
+  }
+  .unit-card .portrait {
+    top: 6px;
+    bottom: auto;
+    left: 20%;
+    width: 60%;
+    height: 75px;
+  }
+  .unit-card h3 {
+    margin-top: 71px;
+    font-size: 10px;
+  }
+  .unit-key {
+    top: 5px;
+    left: 5px;
+    font-size: 8px;
+    width: 14px;
+    height: 14px;
+  }
+  .unit-role {
+    display: none;
+  }
+  .unit-cost {
+    margin-top: 5px;
+    font-size: 11px;
+  }
+  .unit-cost > span {
+    font-size: 7px;
+  }
+  .selected-description {
+    font-size: 8px;
+    display: flex;
+    line-height: 1.6;
+  }
+  .selected-description > span:last-child {
+    display: none;
+  }
+}
+@media (max-width: 520px) {
+  .brand {
+    font-size: 18px;
+  }
+  .brand-icon {
+    display: none;
+  }
+  .sidebar {
+    gap: 5px;
+    padding: 0 13px;
+    height: 62px;
+  }
+  .sidebar nav .nav-item {
+    padding: 0 8px;
+  }
+  .main-content {
+    padding-top: 62px;
+  }
+  .main-content.combat {
+    padding: 0;
+  }
+  .topbar {
+    padding: 0 18px;
+    height: 35px;
+  }
+  .page-content {
+    padding: 20px 15px 0;
+  }
+  .welcome h1 {
+    font-size: 22px;
+  }
+  .hero {
+    min-height: 420px;
+    border-radius: 3px 18px 3px 18px;
+    background-position: 62% center;
+  }
+  .hero-copy {
+    width: 100%;
+    padding: 30px 23px 45px;
+  }
+  .hero h2 {
+    font-size: 38px;
+  }
+  .hero-copy > p {
+    font-size: 11px;
+  }
+  .hero-actions {
+    gap: 18px;
+  }
+  .hero-actions .btn {
+    min-width: 154px;
+    min-height: 48px;
+    font-size: 13px;
+    padding: 9px 14px;
+  }
+  .hero-coordinate {
+    left: 23px;
+    font-size: 6px;
+  }
+  .stat {
+    padding: 10px 6px;
+  }
+  .stat strong {
+    font-size: 18px;
+  }
+  .section-title h2 {
+    font-size: 17px;
+  }
+  .battle-page {
+    min-height: 640px;
+  }
+  .battle-header {
+    gap: 8px;
+    height: 43px;
+    min-height: 43px;
+    padding: 0 10px;
+  }
+  .battle-map-name > svg,
+  .battle-header .best-time,
+  .battle-header .back-link svg {
+    display: none;
+  }
+  .battle-map-name b {
+    font-size: 10px;
+  }
+  .battle-map-name .difficulty {
+    font-size: 7px;
+  }
+  .battle-header .back-link {
+    font-size: 9px;
+  }
+  .battle-hud {
+    left: 7px;
+    right: 7px;
+    top: 8px;
+    padding: 9px 11px;
+    gap: 12px;
+  }
+  .hud-time b {
+    font-size: 18px;
+  }
+  .hud-time > div > span {
+    font-size: 6px;
+    letter-spacing: 1px;
+  }
+  .energy-hud,
+  .core-hud {
+    width: 85px;
+  }
+  .energy-hud > span,
+  .core-hud > span {
+    font-size: 7px;
+    gap: 3px;
+  }
+  .energy-hud b,
+  .core-hud b {
+    font-size: 15px;
+  }
+  .energy-hud svg,
+  .core-hud svg {
+    width: 11px;
+  }
+  .energy-hud small,
+  .core-hud small {
+    font-size: 6px;
+  }
+  .mission-banner {
+    top: 80px;
+    left: 13px;
+  }
+  .mission-banner h1 {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  .mission-banner > span {
+    font-size: 7px;
+    letter-spacing: 2px;
+  }
+  .battle-dock {
+    padding: 9px 9px 8px;
+  }
+  .dock-heading {
+    font-size: 9px;
+  }
+  .dock-heading > span:last-child {
+    display: none;
+  }
+  .unit-cards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px;
+  }
+  .unit-card {
+    height: 78px;
+    text-align: left;
+    padding: 9px 7px 6px 46%;
+  }
+  .unit-card .portrait {
+    left: 3%;
+    top: 4px;
+    width: 43%;
+    height: 69px;
+  }
+  .unit-card h3 {
+    margin-top: 17px;
+    font-size: 10px;
+  }
+  .unit-cost {
+    margin-top: 9px;
+    font-size: 10px;
+  }
+  .unit-cost svg {
+    display: none;
+  }
+  .unit-cost > span {
+    font-size: 6px;
+  }
+  .selected-description {
+    margin-top: 6px;
+    font-size: 7px;
+  }
+  .battle-instruction {
+    padding: 8px 11px;
+    font-size: 8px;
+  }
+}
+@media (max-height: 580px) and (min-width: 681px) {
+  .battle-page {
+    min-height: 420px;
+  }
+  .battle-header {
+    height: 36px;
+    min-height: 36px;
+  }
+  .battle-dock {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  .unit-card {
+    height: 76px;
+    text-align: left;
+    padding-left: 45%;
+  }
+  .unit-card .portrait {
+    left: 2%;
+    top: 3px;
+    width: 43%;
+    height: 68px;
+  }
+  .unit-card h3 {
+    margin-top: 16px;
+    font-size: 10px;
+  }
+  .unit-cost {
+    margin-top: 7px;
+    font-size: 10px;
+  }
+  .dock-heading,
+  .selected-description {
+    display: none;
+  }
+  .battle-hud {
+    padding: 7px 14px;
+    top: 8px;
+  }
+  .hud-time b {
+    font-size: 21px;
+  }
+  .mission-banner {
+    top: 77px;
+  }
+  .mission-banner h1 {
+    font-size: 16px;
+  }
+}

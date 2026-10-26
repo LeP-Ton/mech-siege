@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>机械围城 · 步态验收</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: #142029;
+        color: #e5eee9;
+        font:
+          14px system-ui,
+          sans-serif;
+      }
+      main {
+        max-width: 1150px;
+        margin: auto;
+        padding: 20px;
+      }
+      h1 {
+        font-size: 22px;
+        margin: 0 0 8px;
+      }
+      p {
+        color: #acbfc4;
+        line-height: 1.6;
+      }
+      section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 12px 0;
+      }
+      button {
+        border: 1px solid #52656b;
+        background: #263b44;
+        color: #f1eee3;
+        padding: 10px 14px;
+        border-radius: 7px;
+        cursor: pointer;
+      }
+      button[aria-pressed='true'] {
+        background: #cc8137;
+        color: #101b23;
+      }
+      #stage {
+        width: 100%;
+        overflow: hidden;
+        border-radius: 12px;
+        background: #23363e;
+      }
+      #stage canvas {
+        display: block;
+        width: 100% !important;
+        height: auto !important;
+      }
+      output {
+        display: block;
+        white-space: pre-wrap;
+        font: 13px/1.8 monospace;
+        color: #a8e3d1;
+      }
+      #stage-label {
+        color: #e7b579;
+      }
+      small {
+        color: #9fb1ba;
+      }
+      select,
+      input {
+        accent-color: #cc8137;
+      }
+      select {
+        padding: 8px;
+        color: #e5eee9;
+        background: #263b44;
+        border: 1px solid #52656b;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>机器人完整行走循环验收</h1>
+      <p>
+        六种机体共用真实战场的连续动画与动作过渡。双足交替迈步，疾行固定双轮滚动，掘地履带滚动。
+      </p>
+      <section aria-label="播放控制">
+        <button id="pause">暂停</button><button data-speed="1" aria-pressed="true">正常速度</button
+        ><button data-speed="0.25">四分之一速度</button><button data-speed="0.55">冷冻减速</button>
+        <button data-action="walk" aria-pressed="true">行走</button
+        ><button data-action="idle">停步</button><button data-action="attack">攻击</button
+        ><button data-action="hit">受击</button>
+      </section>
+      <section aria-label="循环逐段检查">
+        <button data-phase="0">0% 左脚落地</button><button data-phase="0.125">12.5%</button
+        ><button data-phase="0.25">25%</button><button data-phase="0.375">37.5%</button
+        ><button data-phase="0.5">50% 右脚落地</button><button data-phase="0.625">62.5%</button
+        ><button data-phase="0.75">75%</button><button data-phase="0.875">87.5%</button
+        ><button data-phase="1">100% 循环接缝</button>
+      </section>
+      <section aria-label="放大与关节检查">
+        <label
+          >查看机体
+          <select id="actor-view">
+            <option value="all">全部机体</option>
+            <option value="basic">放大先锋</option>
+            <option value="armor">放大重装</option>
+            <option value="runner">放大疾行</option>
+            <option value="digger">放大掘地</option>
+            <option value="bomber">放大爆破</option>
+            <option value="commander">放大指挥</option>
+          </select></label
+        >
+        <label><input id="show-joints" type="checkbox" /> 显示关节与脚底</label>
+      </section>
+      <div id="stage" aria-label="六种机器人连续动作画面"></div>
+      <p id="stage-label">正在加载分层素材…</p>
+      <output id="telemetry" aria-live="off"></output>
+      <small
+        >开发验收页，不写入存档或战斗成绩。逐相位检查对齐各机体完整周期；实际战场按各自前进位移驱动。</small
+      >
+    </main>
+    <script type="module" src="/src/render/walk-lab.ts"></script>
+  </body>
+</html>

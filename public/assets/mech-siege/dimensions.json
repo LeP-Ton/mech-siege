@@ -1,0 +1,167 @@
+{
+  "hero": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2410616
+  },
+  "basic": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2250531
+  },
+  "armor": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2420381
+  },
+  "runner": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2338175
+  },
+  "digger": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2433258
+  },
+  "bomber": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2479960
+  },
+  "commander": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2665018
+  },
+  "shooter": {
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1535988
+  },
+  "wall": {
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2025557
+  },
+  "frost": {
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1820615
+  },
+  "flower": {
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1728597
+  },
+  "bomb": {
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1485379
+  },
+  "detector": {
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1737924
+  },
+  "cannon": {
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1897827
+  },
+  "core": {
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1909048
+  },
+  "environment-0": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2513042
+  },
+  "environment-1": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2475660
+  },
+  "environment-2": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2593605
+  },
+  "environment-3": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2463021
+  },
+  "environment-4": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2455896
+  },
+  "battlefield-0": {
+    "width": 1672,
+    "height": 941,
+    "bytes": 2768732
+  },
+  "battlefield-1": {
+    "width": 1671,
+    "height": 941,
+    "bytes": 2753547
+  },
+  "battlefield-2": {
+    "width": 1672,
+    "height": 941,
+    "bytes": 2750284
+  },
+  "battlefield-3": {
+    "width": 1672,
+    "height": 941,
+    "bytes": 2807397
+  },
+  "battlefield-4": {
+    "width": 1672,
+    "height": 941,
+    "bytes": 2779769
+  },
+  "basic-rig-v2": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1801076
+  },
+  "armor-rig-v1": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1859875
+  },
+  "bomber-rig-v1": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1803290
+  },
+  "commander-rig-v1": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1782969
+  },
+  "robot-legs-v2": {
+    "width": 1086,
+    "height": 1448,
+    "bytes": 1103943
+  },
+  "runner-rig-v1": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1757318
+  },
+  "digger-rig-v1": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2239848
+  },
+  "armor-equipment-v2": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1917626
+  }
+}

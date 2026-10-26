@@ -1,0 +1,3228 @@
+{
+  "maps": [
+    {
+      "seed": "ZVP-G1-DAWN01",
+      "difficulty": "easy",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 5,
+      "environment": 2,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 4,
+          "type": "shooter"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 6,
+          "type": "flower"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 8,
+          "type": "frost"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 9,
+          "type": "frost"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 10,
+          "type": "cannon"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 4,
+          "col": 2,
+          "type": "tunnel",
+          "phase": 90
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "type": "mud",
+          "phase": 60
+        }
+      ],
+      "budget": 17,
+      "fallback": false,
+      "fingerprint": "7d27a57"
+    },
+    {
+      "seed": "ZVP-G1-SUNFL2",
+      "difficulty": "easy",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 2,
+      "environment": 3,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 4,
+          "type": "flower"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 4,
+          "type": "shooter"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 8,
+          "type": "flower"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 9,
+          "type": "bomb"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 9,
+          "type": "flower"
+        },
+        {
+          "id": 9,
+          "row": 3,
+          "col": 9,
+          "type": "flower"
+        },
+        {
+          "id": 10,
+          "row": 4,
+          "col": 10,
+          "type": "bomb"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 3,
+          "col": 10,
+          "type": "road",
+          "phase": 60
+        },
+        {
+          "row": 0,
+          "col": 7,
+          "type": "rock",
+          "phase": 60
+        }
+      ],
+      "budget": 16,
+      "fallback": false,
+      "fingerprint": "e9a8c01"
+    },
+    {
+      "seed": "ZVP-G1-YARD03",
+      "difficulty": "easy",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 1,
+      "environment": 1,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 5,
+          "type": "wall"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 5,
+          "type": "wall"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 4,
+          "type": "wall"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 4,
+          "type": "flower"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 6,
+          "type": "wall"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 8,
+          "type": "flower"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 10,
+          "type": "flower"
+        },
+        {
+          "id": 8,
+          "row": 3,
+          "col": 9,
+          "type": "flower"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 3,
+          "col": 5,
+          "type": "road",
+          "phase": 90
+        },
+        {
+          "row": 3,
+          "col": 7,
+          "type": "road",
+          "phase": 90
+        }
+      ],
+      "budget": 16,
+      "fallback": false,
+      "fingerprint": "17b0f43"
+    },
+    {
+      "seed": "ZVP-G1-DUSK04",
+      "difficulty": "easy",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 0,
+      "environment": 3,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 5,
+          "type": "flower"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 4,
+          "type": "shooter"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 8,
+          "type": "cannon"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 10,
+          "type": "flower"
+        },
+        {
+          "id": 8,
+          "row": 3,
+          "col": 10,
+          "type": "shooter"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 0,
+          "col": 7,
+          "type": "road",
+          "phase": 0
+        },
+        {
+          "row": 3,
+          "col": 7,
+          "type": "tunnel",
+          "phase": 60
+        }
+      ],
+      "budget": 16,
+      "fallback": false,
+      "fingerprint": "242b2b52"
+    },
+    {
+      "seed": "ZVP-G1-STEEL1",
+      "difficulty": "normal",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 1,
+      "environment": 4,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 4,
+          "type": "wall"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 4,
+          "type": "flower"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 6,
+          "type": "wall"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 5,
+          "type": "wall"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 4,
+          "type": "wall"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 8,
+          "type": "flower"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 9,
+          "type": "flower"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 10,
+          "type": "flower"
+        },
+        {
+          "id": 9,
+          "row": 3,
+          "col": 9,
+          "type": "frost"
+        },
+        {
+          "id": 10,
+          "row": 4,
+          "col": 8,
+          "type": "flower"
+        },
+        {
+          "id": 11,
+          "row": 1,
+          "col": 10,
+          "type": "wall"
+        },
+        {
+          "id": 12,
+          "row": 4,
+          "col": 7,
+          "type": "shooter"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 0,
+          "col": 2,
+          "type": "mud",
+          "phase": 60
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "type": "mud",
+          "phase": 60
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "type": "tunnel",
+          "phase": 90
+        },
+        {
+          "row": 0,
+          "col": 10,
+          "type": "rock",
+          "phase": 90
+        }
+      ],
+      "budget": 24,
+      "fallback": false,
+      "fingerprint": "bdd19721"
+    },
+    {
+      "seed": "ZVP-G1-VINE02",
+      "difficulty": "normal",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 1,
+      "environment": 2,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 4,
+          "type": "flower"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 6,
+          "type": "wall"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 5,
+          "type": "wall"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 4,
+          "type": "wall"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 5,
+          "type": "wall"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 8,
+          "type": "flower"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 9,
+          "type": "shooter"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 8,
+          "type": "flower"
+        },
+        {
+          "id": 9,
+          "row": 3,
+          "col": 8,
+          "type": "flower"
+        },
+        {
+          "id": 10,
+          "row": 4,
+          "col": 9,
+          "type": "shooter"
+        },
+        {
+          "id": 11,
+          "row": 2,
+          "col": 3,
+          "type": "shooter"
+        },
+        {
+          "id": 12,
+          "row": 4,
+          "col": 3,
+          "type": "shooter"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 1,
+          "col": 5,
+          "type": "tunnel",
+          "phase": 60
+        },
+        {
+          "row": 4,
+          "col": 6,
+          "type": "rock",
+          "phase": 0
+        },
+        {
+          "row": 1,
+          "col": 8,
+          "type": "road",
+          "phase": 30
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "type": "road",
+          "phase": 90
+        }
+      ],
+      "budget": 24,
+      "fallback": false,
+      "fingerprint": "3fb7aafe"
+    },
+    {
+      "seed": "ZVP-G1-SPORE3",
+      "difficulty": "normal",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 0,
+      "environment": 2,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 4,
+          "type": "flower"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 4,
+          "type": "shooter"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 9,
+          "type": "cannon"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 9,
+          "type": "flower"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 8,
+          "type": "flower"
+        },
+        {
+          "id": 9,
+          "row": 3,
+          "col": 8,
+          "type": "flower"
+        },
+        {
+          "id": 10,
+          "row": 4,
+          "col": 10,
+          "type": "shooter"
+        },
+        {
+          "id": 11,
+          "row": 1,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 12,
+          "row": 1,
+          "col": 7,
+          "type": "shooter"
+        },
+        {
+          "id": 13,
+          "row": 4,
+          "col": 7,
+          "type": "shooter"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 2,
+          "col": 3,
+          "type": "rock",
+          "phase": 30
+        },
+        {
+          "row": 0,
+          "col": 10,
+          "type": "rock",
+          "phase": 60
+        },
+        {
+          "row": 0,
+          "col": 7,
+          "type": "road",
+          "phase": 60
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "type": "rock",
+          "phase": 30
+        }
+      ],
+      "budget": 24,
+      "fallback": false,
+      "fingerprint": "2b7bde3c"
+    },
+    {
+      "seed": "ZVP-G1-IRON04",
+      "difficulty": "normal",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 5,
+      "environment": 1,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 4,
+          "type": "shooter"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 6,
+          "type": "flower"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 8,
+          "type": "flower"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 10,
+          "type": "frost"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 10,
+          "type": "shooter"
+        },
+        {
+          "id": 9,
+          "row": 3,
+          "col": 9,
+          "type": "flower"
+        },
+        {
+          "id": 10,
+          "row": 4,
+          "col": 10,
+          "type": "shooter"
+        },
+        {
+          "id": 11,
+          "row": 1,
+          "col": 7,
+          "type": "shooter"
+        },
+        {
+          "id": 12,
+          "row": 0,
+          "col": 7,
+          "type": "flower"
+        },
+        {
+          "id": 13,
+          "row": 1,
+          "col": 3,
+          "type": "shooter"
+        },
+        {
+          "id": 14,
+          "row": 1,
+          "col": 8,
+          "type": "frost"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 2,
+          "col": 7,
+          "type": "tunnel",
+          "phase": 0
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "type": "road",
+          "phase": 30
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "type": "road",
+          "phase": 30
+        },
+        {
+          "row": 0,
+          "col": 9,
+          "type": "rock",
+          "phase": 0
+        }
+      ],
+      "budget": 24,
+      "fallback": false,
+      "fingerprint": "20b56a98"
+    },
+    {
+      "seed": "ZVP-G1-DIG001",
+      "difficulty": "normal",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 3,
+      "environment": 4,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 6,
+          "type": "wall"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 5,
+          "type": "wall"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 4,
+          "type": "flower"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 6,
+          "type": "wall"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 4,
+          "type": "wall"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 9,
+          "type": "detector"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 10,
+          "type": "detector"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 9,
+          "type": "flower"
+        },
+        {
+          "id": 9,
+          "row": 3,
+          "col": 10,
+          "type": "shooter"
+        },
+        {
+          "id": 10,
+          "row": 4,
+          "col": 8,
+          "type": "shooter"
+        },
+        {
+          "id": 11,
+          "row": 2,
+          "col": 10,
+          "type": "shooter"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 3,
+          "col": 9,
+          "type": "road",
+          "phase": 90
+        },
+        {
+          "row": 3,
+          "col": 8,
+          "type": "tunnel",
+          "phase": 30
+        },
+        {
+          "row": 1,
+          "col": 9,
+          "type": "tunnel",
+          "phase": 30
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "type": "road",
+          "phase": 0
+        }
+      ],
+      "budget": 24,
+      "fallback": false,
+      "fingerprint": "27fa3901"
+    },
+    {
+      "seed": "ZVP-G1-TUNNL2",
+      "difficulty": "normal",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 3,
+      "environment": 4,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 5,
+          "type": "wall"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 6,
+          "type": "flower"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 4,
+          "type": "wall"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 4,
+          "type": "wall"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 5,
+          "type": "wall"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 10,
+          "type": "shooter"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 10,
+          "type": "flower"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 9,
+          "type": "shooter"
+        },
+        {
+          "id": 9,
+          "row": 3,
+          "col": 9,
+          "type": "wall"
+        },
+        {
+          "id": 10,
+          "row": 4,
+          "col": 8,
+          "type": "shooter"
+        },
+        {
+          "id": 11,
+          "row": 3,
+          "col": 3,
+          "type": "detector"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 3,
+          "col": 6,
+          "type": "tunnel",
+          "phase": 30
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "type": "tunnel",
+          "phase": 60
+        },
+        {
+          "row": 4,
+          "col": 10,
+          "type": "road",
+          "phase": 60
+        },
+        {
+          "row": 0,
+          "col": 8,
+          "type": "tunnel",
+          "phase": 60
+        }
+      ],
+      "budget": 25,
+      "fallback": false,
+      "fingerprint": "652070f8"
+    },
+    {
+      "seed": "ZVP-G1-RADAR3",
+      "difficulty": "normal",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 3,
+      "environment": 0,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 4,
+          "type": "wall"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 4,
+          "type": "wall"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 5,
+          "type": "wall"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 6,
+          "type": "wall"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 6,
+          "type": "flower"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 9,
+          "type": "wall"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 8,
+          "type": "wall"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 10,
+          "type": "flower"
+        },
+        {
+          "id": 9,
+          "row": 3,
+          "col": 8,
+          "type": "wall"
+        },
+        {
+          "id": 10,
+          "row": 4,
+          "col": 9,
+          "type": "flower"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 0,
+          "col": 10,
+          "type": "road",
+          "phase": 30
+        },
+        {
+          "row": 4,
+          "col": 8,
+          "type": "road",
+          "phase": 30
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "type": "tunnel",
+          "phase": 0
+        },
+        {
+          "row": 1,
+          "col": 6,
+          "type": "tunnel",
+          "phase": 90
+        }
+      ],
+      "budget": 24,
+      "fallback": false,
+      "fingerprint": "a4aa2db3"
+    },
+    {
+      "seed": "ZVP-G1-SILNT4",
+      "difficulty": "normal",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 2,
+      "environment": 2,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 6,
+          "type": "flower"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 4,
+          "type": "shooter"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 8,
+          "type": "flower"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 10,
+          "type": "flower"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 10,
+          "type": "flower"
+        },
+        {
+          "id": 9,
+          "row": 3,
+          "col": 9,
+          "type": "bomb"
+        },
+        {
+          "id": 10,
+          "row": 4,
+          "col": 8,
+          "type": "shooter"
+        },
+        {
+          "id": 11,
+          "row": 2,
+          "col": 7,
+          "type": "flower"
+        },
+        {
+          "id": 12,
+          "row": 3,
+          "col": 6,
+          "type": "flower"
+        },
+        {
+          "id": 13,
+          "row": 1,
+          "col": 4,
+          "type": "flower"
+        },
+        {
+          "id": 14,
+          "row": 0,
+          "col": 9,
+          "type": "flower"
+        },
+        {
+          "id": 15,
+          "row": 4,
+          "col": 9,
+          "type": "flower"
+        },
+        {
+          "id": 16,
+          "row": 2,
+          "col": 3,
+          "type": "bomb"
+        },
+        {
+          "id": 17,
+          "row": 3,
+          "col": 5,
+          "type": "flower"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 4,
+          "col": 3,
+          "type": "rock",
+          "phase": 60
+        },
+        {
+          "row": 4,
+          "col": 7,
+          "type": "mud",
+          "phase": 0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "type": "rock",
+          "phase": 90
+        },
+        {
+          "row": 3,
+          "col": 8,
+          "type": "rock",
+          "phase": 60
+        }
+      ],
+      "budget": 24,
+      "fallback": false,
+      "fingerprint": "f98c7101"
+    },
+    {
+      "seed": "ZVP-G1-MUD001",
+      "difficulty": "hard",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 4,
+      "environment": 3,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 4,
+          "type": "flower"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 4,
+          "type": "shooter"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 9,
+          "type": "flower"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 9,
+          "type": "bomb"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 8,
+          "type": "flower"
+        },
+        {
+          "id": 9,
+          "row": 3,
+          "col": 10,
+          "type": "wall"
+        },
+        {
+          "id": 10,
+          "row": 4,
+          "col": 10,
+          "type": "frost"
+        },
+        {
+          "id": 11,
+          "row": 4,
+          "col": 3,
+          "type": "wall"
+        },
+        {
+          "id": 12,
+          "row": 2,
+          "col": 6,
+          "type": "bomb"
+        },
+        {
+          "id": 13,
+          "row": 3,
+          "col": 3,
+          "type": "bomb"
+        },
+        {
+          "id": 14,
+          "row": 0,
+          "col": 10,
+          "type": "bomb"
+        },
+        {
+          "id": 15,
+          "row": 0,
+          "col": 3,
+          "type": "bomb"
+        },
+        {
+          "id": 16,
+          "row": 3,
+          "col": 4,
+          "type": "wall"
+        },
+        {
+          "id": 17,
+          "row": 1,
+          "col": 3,
+          "type": "bomb"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 4,
+          "col": 9,
+          "type": "tunnel",
+          "phase": 90
+        },
+        {
+          "row": 1,
+          "col": 7,
+          "type": "road",
+          "phase": 30
+        },
+        {
+          "row": 0,
+          "col": 7,
+          "type": "mud",
+          "phase": 30
+        },
+        {
+          "row": 2,
+          "col": 9,
+          "type": "rock",
+          "phase": 90
+        },
+        {
+          "row": 3,
+          "col": 8,
+          "type": "mud",
+          "phase": 90
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "type": "rock",
+          "phase": 30
+        }
+      ],
+      "budget": 34,
+      "fallback": false,
+      "fingerprint": "73b758b8"
+    },
+    {
+      "seed": "ZVP-G1-PATH02",
+      "difficulty": "hard",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 4,
+      "environment": 1,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 4,
+          "type": "flower"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 4,
+          "type": "shooter"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 9,
+          "type": "wall"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 10,
+          "type": "flower"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 9,
+          "type": "wall"
+        },
+        {
+          "id": 9,
+          "row": 3,
+          "col": 9,
+          "type": "frost"
+        },
+        {
+          "id": 10,
+          "row": 4,
+          "col": 8,
+          "type": "flower"
+        },
+        {
+          "id": 11,
+          "row": 3,
+          "col": 4,
+          "type": "wall"
+        },
+        {
+          "id": 12,
+          "row": 1,
+          "col": 5,
+          "type": "wall"
+        },
+        {
+          "id": 13,
+          "row": 4,
+          "col": 3,
+          "type": "bomb"
+        },
+        {
+          "id": 14,
+          "row": 0,
+          "col": 10,
+          "type": "frost"
+        },
+        {
+          "id": 15,
+          "row": 2,
+          "col": 8,
+          "type": "bomb"
+        },
+        {
+          "id": 16,
+          "row": 1,
+          "col": 6,
+          "type": "flower"
+        },
+        {
+          "id": 17,
+          "row": 0,
+          "col": 7,
+          "type": "flower"
+        },
+        {
+          "id": 18,
+          "row": 0,
+          "col": 4,
+          "type": "flower"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 0,
+          "col": 6,
+          "type": "road",
+          "phase": 30
+        },
+        {
+          "row": 4,
+          "col": 10,
+          "type": "mud",
+          "phase": 90
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "type": "tunnel",
+          "phase": 30
+        },
+        {
+          "row": 3,
+          "col": 8,
+          "type": "mud",
+          "phase": 0
+        },
+        {
+          "row": 3,
+          "col": 7,
+          "type": "road",
+          "phase": 0
+        },
+        {
+          "row": 0,
+          "col": 8,
+          "type": "tunnel",
+          "phase": 60
+        }
+      ],
+      "budget": 34,
+      "fallback": false,
+      "fingerprint": "a8cf3065"
+    },
+    {
+      "seed": "ZVP-G1-CLOCK3",
+      "difficulty": "hard",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 6,
+      "environment": 4,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 5,
+          "type": "flower"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 4,
+          "type": "shooter"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 9,
+          "type": "frost"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 8,
+          "type": "shooter"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 8,
+          "type": "flower"
+        },
+        {
+          "id": 9,
+          "row": 3,
+          "col": 9,
+          "type": "bomb"
+        },
+        {
+          "id": 10,
+          "row": 4,
+          "col": 9,
+          "type": "bomb"
+        },
+        {
+          "id": 11,
+          "row": 2,
+          "col": 6,
+          "type": "frost"
+        },
+        {
+          "id": 12,
+          "row": 0,
+          "col": 4,
+          "type": "bomb"
+        },
+        {
+          "id": 13,
+          "row": 1,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 14,
+          "row": 1,
+          "col": 9,
+          "type": "frost"
+        },
+        {
+          "id": 15,
+          "row": 4,
+          "col": 6,
+          "type": "frost"
+        },
+        {
+          "id": 16,
+          "row": 4,
+          "col": 10,
+          "type": "shooter"
+        },
+        {
+          "id": 17,
+          "row": 0,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 18,
+          "row": 1,
+          "col": 10,
+          "type": "frost"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 1,
+          "col": 4,
+          "type": "trap",
+          "phase": 90
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "type": "road",
+          "phase": 30
+        },
+        {
+          "row": 1,
+          "col": 7,
+          "type": "trap",
+          "phase": 90
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "type": "road",
+          "phase": 60
+        },
+        {
+          "row": 2,
+          "col": 7,
+          "type": "trap",
+          "phase": 0
+        },
+        {
+          "row": 0,
+          "col": 10,
+          "type": "trap",
+          "phase": 60
+        }
+      ],
+      "budget": 34,
+      "fallback": false,
+      "fingerprint": "9b1a3f26"
+    },
+    {
+      "seed": "ZVP-G1-OASIS4",
+      "difficulty": "hard",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 5,
+      "environment": 1,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 4,
+          "type": "shooter"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 6,
+          "type": "flower"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 8,
+          "type": "frost"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 9,
+          "type": "shooter"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 10,
+          "type": "flower"
+        },
+        {
+          "id": 9,
+          "row": 3,
+          "col": 9,
+          "type": "flower"
+        },
+        {
+          "id": 10,
+          "row": 4,
+          "col": 10,
+          "type": "flower"
+        },
+        {
+          "id": 11,
+          "row": 2,
+          "col": 8,
+          "type": "cannon"
+        },
+        {
+          "id": 12,
+          "row": 2,
+          "col": 7,
+          "type": "cannon"
+        },
+        {
+          "id": 13,
+          "row": 4,
+          "col": 8,
+          "type": "frost"
+        },
+        {
+          "id": 14,
+          "row": 2,
+          "col": 3,
+          "type": "cannon"
+        },
+        {
+          "id": 15,
+          "row": 1,
+          "col": 3,
+          "type": "flower"
+        },
+        {
+          "id": 16,
+          "row": 2,
+          "col": 9,
+          "type": "flower"
+        },
+        {
+          "id": 17,
+          "row": 4,
+          "col": 9,
+          "type": "frost"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 3,
+          "col": 3,
+          "type": "rock",
+          "phase": 90
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "type": "road",
+          "phase": 30
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "type": "mud",
+          "phase": 30
+        },
+        {
+          "row": 1,
+          "col": 7,
+          "type": "rock",
+          "phase": 0
+        },
+        {
+          "row": 4,
+          "col": 7,
+          "type": "road",
+          "phase": 0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "type": "rock",
+          "phase": 60
+        }
+      ],
+      "budget": 34,
+      "fallback": false,
+      "fingerprint": "11376dfa"
+    },
+    {
+      "seed": "ZVP-G1-CANN01",
+      "difficulty": "hard",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 0,
+      "environment": 0,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 4,
+          "type": "flower"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 8,
+          "type": "shooter"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 9,
+          "type": "shooter"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 10,
+          "type": "flower"
+        },
+        {
+          "id": 9,
+          "row": 3,
+          "col": 10,
+          "type": "flower"
+        },
+        {
+          "id": 10,
+          "row": 4,
+          "col": 9,
+          "type": "flower"
+        },
+        {
+          "id": 11,
+          "row": 4,
+          "col": 10,
+          "type": "shooter"
+        },
+        {
+          "id": 12,
+          "row": 2,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 13,
+          "row": 0,
+          "col": 4,
+          "type": "shooter"
+        },
+        {
+          "id": 14,
+          "row": 4,
+          "col": 8,
+          "type": "flower"
+        },
+        {
+          "id": 15,
+          "row": 2,
+          "col": 8,
+          "type": "cannon"
+        },
+        {
+          "id": 16,
+          "row": 4,
+          "col": 5,
+          "type": "cannon"
+        },
+        {
+          "id": 17,
+          "row": 1,
+          "col": 3,
+          "type": "flower"
+        },
+        {
+          "id": 18,
+          "row": 0,
+          "col": 10,
+          "type": "shooter"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 1,
+          "col": 6,
+          "type": "tunnel",
+          "phase": 90
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "type": "tunnel",
+          "phase": 90
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "type": "road",
+          "phase": 60
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "type": "rock",
+          "phase": 90
+        },
+        {
+          "row": 3,
+          "col": 7,
+          "type": "mud",
+          "phase": 30
+        },
+        {
+          "row": 1,
+          "col": 8,
+          "type": "mud",
+          "phase": 30
+        }
+      ],
+      "budget": 34,
+      "fallback": false,
+      "fingerprint": "9210f885"
+    },
+    {
+      "seed": "ZVP-G1-LOCK02",
+      "difficulty": "hard",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 1,
+      "environment": 4,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 5,
+          "type": "wall"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 5,
+          "type": "wall"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 6,
+          "type": "wall"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 6,
+          "type": "wall"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 4,
+          "type": "flower"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 10,
+          "type": "frost"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 10,
+          "type": "shooter"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 8,
+          "type": "shooter"
+        },
+        {
+          "id": 9,
+          "row": 3,
+          "col": 9,
+          "type": "frost"
+        },
+        {
+          "id": 10,
+          "row": 4,
+          "col": 8,
+          "type": "flower"
+        },
+        {
+          "id": 11,
+          "row": 0,
+          "col": 3,
+          "type": "shooter"
+        },
+        {
+          "id": 12,
+          "row": 2,
+          "col": 5,
+          "type": "wall"
+        },
+        {
+          "id": 13,
+          "row": 0,
+          "col": 8,
+          "type": "wall"
+        },
+        {
+          "id": 14,
+          "row": 2,
+          "col": 3,
+          "type": "frost"
+        },
+        {
+          "id": 15,
+          "row": 2,
+          "col": 7,
+          "type": "flower"
+        },
+        {
+          "id": 16,
+          "row": 2,
+          "col": 9,
+          "type": "frost"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 4,
+          "col": 2,
+          "type": "mud",
+          "phase": 90
+        },
+        {
+          "row": 0,
+          "col": 9,
+          "type": "tunnel",
+          "phase": 60
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "type": "mud",
+          "phase": 30
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "type": "mud",
+          "phase": 60
+        },
+        {
+          "row": 1,
+          "col": 8,
+          "type": "tunnel",
+          "phase": 90
+        },
+        {
+          "row": 3,
+          "col": 8,
+          "type": "mud",
+          "phase": 60
+        }
+      ],
+      "budget": 35,
+      "fallback": false,
+      "fingerprint": "c3e5e085"
+    },
+    {
+      "seed": "ZVP-G1-BLOOM3",
+      "difficulty": "extreme",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 6,
+      "environment": 4,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 4,
+          "type": "shooter"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 4,
+          "type": "shooter"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 6,
+          "type": "flower"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 10,
+          "type": "frost"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 8,
+          "type": "bomb"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 8,
+          "type": "shooter"
+        },
+        {
+          "id": 9,
+          "row": 3,
+          "col": 8,
+          "type": "bomb"
+        },
+        {
+          "id": 10,
+          "row": 4,
+          "col": 9,
+          "type": "flower"
+        },
+        {
+          "id": 11,
+          "row": 1,
+          "col": 4,
+          "type": "shooter"
+        },
+        {
+          "id": 12,
+          "row": 3,
+          "col": 10,
+          "type": "flower"
+        },
+        {
+          "id": 13,
+          "row": 2,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 14,
+          "row": 1,
+          "col": 9,
+          "type": "bomb"
+        },
+        {
+          "id": 15,
+          "row": 4,
+          "col": 10,
+          "type": "frost"
+        },
+        {
+          "id": 16,
+          "row": 3,
+          "col": 9,
+          "type": "frost"
+        },
+        {
+          "id": 17,
+          "row": 2,
+          "col": 9,
+          "type": "frost"
+        },
+        {
+          "id": 18,
+          "row": 0,
+          "col": 8,
+          "type": "shooter"
+        },
+        {
+          "id": 19,
+          "row": 0,
+          "col": 5,
+          "type": "bomb"
+        },
+        {
+          "id": 20,
+          "row": 4,
+          "col": 4,
+          "type": "bomb"
+        },
+        {
+          "id": 21,
+          "row": 1,
+          "col": 3,
+          "type": "frost"
+        },
+        {
+          "id": 22,
+          "row": 0,
+          "col": 9,
+          "type": "frost"
+        },
+        {
+          "id": 23,
+          "row": 2,
+          "col": 3,
+          "type": "frost"
+        },
+        {
+          "id": 24,
+          "row": 0,
+          "col": 7,
+          "type": "frost"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 4,
+          "col": 5,
+          "type": "trap",
+          "phase": 0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "type": "trap",
+          "phase": 30
+        },
+        {
+          "row": 2,
+          "col": 7,
+          "type": "road",
+          "phase": 0
+        },
+        {
+          "row": 1,
+          "col": 7,
+          "type": "road",
+          "phase": 90
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "type": "road",
+          "phase": 30
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "type": "road",
+          "phase": 30
+        },
+        {
+          "row": 4,
+          "col": 7,
+          "type": "trap",
+          "phase": 30
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "type": "trap",
+          "phase": 90
+        },
+        {
+          "row": 1,
+          "col": 6,
+          "type": "trap",
+          "phase": 30
+        }
+      ],
+      "budget": 45,
+      "fallback": false,
+      "fingerprint": "e5be986b"
+    },
+    {
+      "seed": "ZVP-G1-FINAL4",
+      "difficulty": "extreme",
+      "generatorVersion": "G1",
+      "rulesVersion": "R1",
+      "style": 5,
+      "environment": 0,
+      "plants": [
+        {
+          "id": 1,
+          "row": 0,
+          "col": 6,
+          "type": "shooter"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 3,
+          "row": 2,
+          "col": 6,
+          "type": "flower"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 5,
+          "type": "shooter"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 9,
+          "type": "flower"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 8,
+          "type": "frost"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 8,
+          "type": "flower"
+        },
+        {
+          "id": 9,
+          "row": 3,
+          "col": 10,
+          "type": "cannon"
+        },
+        {
+          "id": 10,
+          "row": 4,
+          "col": 8,
+          "type": "cannon"
+        },
+        {
+          "id": 11,
+          "row": 0,
+          "col": 10,
+          "type": "shooter"
+        },
+        {
+          "id": 12,
+          "row": 1,
+          "col": 4,
+          "type": "flower"
+        },
+        {
+          "id": 13,
+          "row": 1,
+          "col": 3,
+          "type": "frost"
+        },
+        {
+          "id": 14,
+          "row": 4,
+          "col": 9,
+          "type": "frost"
+        },
+        {
+          "id": 15,
+          "row": 0,
+          "col": 5,
+          "type": "flower"
+        },
+        {
+          "id": 16,
+          "row": 3,
+          "col": 3,
+          "type": "shooter"
+        },
+        {
+          "id": 17,
+          "row": 1,
+          "col": 10,
+          "type": "shooter"
+        },
+        {
+          "id": 18,
+          "row": 3,
+          "col": 6,
+          "type": "frost"
+        },
+        {
+          "id": 19,
+          "row": 3,
+          "col": 8,
+          "type": "frost"
+        },
+        {
+          "id": 20,
+          "row": 3,
+          "col": 7,
+          "type": "cannon"
+        },
+        {
+          "id": 21,
+          "row": 0,
+          "col": 7,
+          "type": "shooter"
+        },
+        {
+          "id": 22,
+          "row": 0,
+          "col": 4,
+          "type": "frost"
+        }
+      ],
+      "terrain": [
+        {
+          "row": 1,
+          "col": 9,
+          "type": "rock",
+          "phase": 30
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "type": "road",
+          "phase": 60
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "type": "mud",
+          "phase": 60
+        },
+        {
+          "row": 4,
+          "col": 10,
+          "type": "tunnel",
+          "phase": 90
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "type": "tunnel",
+          "phase": 0
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "type": "rock",
+          "phase": 90
+        },
+        {
+          "row": 4,
+          "col": 7,
+          "type": "mud",
+          "phase": 90
+        },
+        {
+          "row": 3,
+          "col": 9,
+          "type": "rock",
+          "phase": 60
+        }
+      ],
+      "budget": 45,
+      "fallback": false,
+      "fingerprint": "d37f0d2a"
+    }
+  ],
+  "replays": [
+    {
+      "map": {
+        "seed": "ZVP-G1-DAWN01",
+        "difficulty": "easy",
+        "generatorVersion": "G1",
+        "rulesVersion": "R1",
+        "style": 5,
+        "environment": 2,
+        "plants": [
+          {
+            "id": 1,
+            "row": 0,
+            "col": 5,
+            "type": "shooter"
+          },
+          {
+            "id": 2,
+            "row": 1,
+            "col": 4,
+            "type": "shooter"
+          },
+          {
+            "id": 3,
+            "row": 2,
+            "col": 5,
+            "type": "shooter"
+          },
+          {
+            "id": 4,
+            "row": 3,
+            "col": 5,
+            "type": "shooter"
+          },
+          {
+            "id": 5,
+            "row": 4,
+            "col": 6,
+            "type": "flower"
+          },
+          {
+            "id": 6,
+            "row": 0,
+            "col": 8,
+            "type": "frost"
+          },
+          {
+            "id": 7,
+            "row": 1,
+            "col": 9,
+            "type": "frost"
+          },
+          {
+            "id": 8,
+            "row": 2,
+            "col": 10,
+            "type": "cannon"
+          }
+        ],
+        "terrain": [
+          {
+            "row": 4,
+            "col": 2,
+            "type": "tunnel",
+            "phase": 90
+          },
+          {
+            "row": 0,
+            "col": 3,
+            "type": "mud",
+            "phase": 60
+          }
+        ],
+        "budget": 17,
+        "fallback": false,
+        "fingerprint": "7d27a57"
+      },
+      "replay": {
+        "schema": 1,
+        "seed": "ZVP-G1-DAWN01",
+        "difficulty": "easy",
+        "generatorVersion": "G1",
+        "rulesVersion": "R1",
+        "fingerprint": "7d27a57",
+        "loadout": [
+          "basic",
+          "armor",
+          "runner",
+          "digger",
+          "bomber",
+          "commander"
+        ],
+        "commands": [
+          {
+            "type": "deploy",
+            "tick": 1,
+            "order": 1,
+            "unit": "basic",
+            "row": 4
+          },
+          {
+            "type": "deploy",
+            "tick": 16,
+            "order": 2,
+            "unit": "runner",
+            "row": 4
+          },
+          {
+            "type": "deploy",
+            "tick": 91,
+            "order": 3,
+            "unit": "basic",
+            "row": 4
+          },
+          {
+            "type": "deploy",
+            "tick": 181,
+            "order": 4,
+            "unit": "basic",
+            "row": 4
+          },
+          {
+            "type": "deploy",
+            "tick": 271,
+            "order": 5,
+            "unit": "basic",
+            "row": 4
+          },
+          {
+            "type": "deploy",
+            "tick": 406,
+            "order": 6,
+            "unit": "basic",
+            "row": 4
+          },
+          {
+            "type": "deploy",
+            "tick": 571,
+            "order": 7,
+            "unit": "basic",
+            "row": 4
+          },
+          {
+            "type": "deploy",
+            "tick": 736,
+            "order": 8,
+            "unit": "basic",
+            "row": 4
+          }
+        ],
+        "finalTick": 746,
+        "checksum": "45bd028e"
+      }
+    },
+    {
+      "map": {
+        "seed": "ZVP-G1-BLOOM3",
+        "difficulty": "extreme",
+        "generatorVersion": "G1",
+        "rulesVersion": "R1",
+        "style": 6,
+        "environment": 4,
+        "plants": [
+          {
+            "id": 1,
+            "row": 0,
+            "col": 4,
+            "type": "shooter"
+          },
+          {
+            "id": 2,
+            "row": 1,
+            "col": 5,
+            "type": "shooter"
+          },
+          {
+            "id": 3,
+            "row": 2,
+            "col": 4,
+            "type": "shooter"
+          },
+          {
+            "id": 4,
+            "row": 3,
+            "col": 5,
+            "type": "shooter"
+          },
+          {
+            "id": 5,
+            "row": 4,
+            "col": 6,
+            "type": "flower"
+          },
+          {
+            "id": 6,
+            "row": 0,
+            "col": 10,
+            "type": "frost"
+          },
+          {
+            "id": 7,
+            "row": 1,
+            "col": 8,
+            "type": "bomb"
+          },
+          {
+            "id": 8,
+            "row": 2,
+            "col": 8,
+            "type": "shooter"
+          },
+          {
+            "id": 9,
+            "row": 3,
+            "col": 8,
+            "type": "bomb"
+          },
+          {
+            "id": 10,
+            "row": 4,
+            "col": 9,
+            "type": "flower"
+          },
+          {
+            "id": 11,
+            "row": 1,
+            "col": 4,
+            "type": "shooter"
+          },
+          {
+            "id": 12,
+            "row": 3,
+            "col": 10,
+            "type": "flower"
+          },
+          {
+            "id": 13,
+            "row": 2,
+            "col": 6,
+            "type": "shooter"
+          },
+          {
+            "id": 14,
+            "row": 1,
+            "col": 9,
+            "type": "bomb"
+          },
+          {
+            "id": 15,
+            "row": 4,
+            "col": 10,
+            "type": "frost"
+          },
+          {
+            "id": 16,
+            "row": 3,
+            "col": 9,
+            "type": "frost"
+          },
+          {
+            "id": 17,
+            "row": 2,
+            "col": 9,
+            "type": "frost"
+          },
+          {
+            "id": 18,
+            "row": 0,
+            "col": 8,
+            "type": "shooter"
+          },
+          {
+            "id": 19,
+            "row": 0,
+            "col": 5,
+            "type": "bomb"
+          },
+          {
+            "id": 20,
+            "row": 4,
+            "col": 4,
+            "type": "bomb"
+          },
+          {
+            "id": 21,
+            "row": 1,
+            "col": 3,
+            "type": "frost"
+          },
+          {
+            "id": 22,
+            "row": 0,
+            "col": 9,
+            "type": "frost"
+          },
+          {
+            "id": 23,
+            "row": 2,
+            "col": 3,
+            "type": "frost"
+          },
+          {
+            "id": 24,
+            "row": 0,
+            "col": 7,
+            "type": "frost"
+          }
+        ],
+        "terrain": [
+          {
+            "row": 4,
+            "col": 5,
+            "type": "trap",
+            "phase": 0
+          },
+          {
+            "row": 2,
+            "col": 2,
+            "type": "trap",
+            "phase": 30
+          },
+          {
+            "row": 2,
+            "col": 7,
+            "type": "road",
+            "phase": 0
+          },
+          {
+            "row": 1,
+            "col": 7,
+            "type": "road",
+            "phase": 90
+          },
+          {
+            "row": 3,
+            "col": 3,
+            "type": "road",
+            "phase": 30
+          },
+          {
+            "row": 4,
+            "col": 2,
+            "type": "road",
+            "phase": 30
+          },
+          {
+            "row": 4,
+            "col": 7,
+            "type": "trap",
+            "phase": 30
+          },
+          {
+            "row": 4,
+            "col": 3,
+            "type": "trap",
+            "phase": 90
+          },
+          {
+            "row": 1,
+            "col": 6,
+            "type": "trap",
+            "phase": 30
+          }
+        ],
+        "budget": 45,
+        "fallback": false,
+        "fingerprint": "e5be986b"
+      },
+      "replay": {
+        "schema": 1,
+        "seed": "ZVP-G1-BLOOM3",
+        "difficulty": "extreme",
+        "generatorVersion": "G1",
+        "rulesVersion": "R1",
+        "fingerprint": "e5be986b",
+        "loadout": [
+          "basic",
+          "armor",
+          "runner",
+          "digger",
+          "bomber",
+          "commander"
+        ],
+        "commands": [
+          {
+            "type": "deploy",
+            "tick": 1,
+            "order": 1,
+            "unit": "basic",
+            "row": 4
+          },
+          {
+            "type": "deploy",
+            "tick": 16,
+            "order": 2,
+            "unit": "runner",
+            "row": 4
+          },
+          {
+            "type": "deploy",
+            "tick": 91,
+            "order": 3,
+            "unit": "basic",
+            "row": 4
+          },
+          {
+            "type": "deploy",
+            "tick": 181,
+            "order": 4,
+            "unit": "basic",
+            "row": 4
+          },
+          {
+            "type": "deploy",
+            "tick": 331,
+            "order": 5,
+            "unit": "basic",
+            "row": 4
+          },
+          {
+            "type": "deploy",
+            "tick": 421,
+            "order": 6,
+            "unit": "basic",
+            "row": 4
+          },
+          {
+            "type": "deploy",
+            "tick": 571,
+            "order": 7,
+            "unit": "basic",
+            "row": 4
+          },
+          {
+            "type": "deploy",
+            "tick": 661,
+            "order": 8,
+            "unit": "basic",
+            "row": 4
+          },
+          {
+            "type": "deploy",
+            "tick": 811,
+            "order": 9,
+            "unit": "basic",
+            "row": 4
+          },
+          {
+            "type": "deploy",
+            "tick": 976,
+            "order": 10,
+            "unit": "basic",
+            "row": 4
+          }
+        ],
+        "finalTick": 1007,
+        "checksum": "15ea4d21"
+      }
+    },
+    {
+      "map": {
+        "seed": "ZVP-G1-7J2K9Q",
+        "difficulty": "normal",
+        "generatorVersion": "G1",
+        "rulesVersion": "R1",
+        "style": 6,
+        "environment": 4,
+        "plants": [
+          {
+            "id": 1,
+            "row": 0,
+            "col": 6,
+            "type": "shooter"
+          },
+          {
+            "id": 2,
+            "row": 1,
+            "col": 6,
+            "type": "shooter"
+          },
+          {
+            "id": 3,
+            "row": 2,
+            "col": 5,
+            "type": "shooter"
+          },
+          {
+            "id": 4,
+            "row": 3,
+            "col": 6,
+            "type": "flower"
+          },
+          {
+            "id": 5,
+            "row": 4,
+            "col": 4,
+            "type": "shooter"
+          },
+          {
+            "id": 6,
+            "row": 0,
+            "col": 10,
+            "type": "shooter"
+          },
+          {
+            "id": 7,
+            "row": 1,
+            "col": 8,
+            "type": "flower"
+          },
+          {
+            "id": 8,
+            "row": 2,
+            "col": 8,
+            "type": "shooter"
+          },
+          {
+            "id": 9,
+            "row": 3,
+            "col": 10,
+            "type": "flower"
+          },
+          {
+            "id": 10,
+            "row": 4,
+            "col": 8,
+            "type": "shooter"
+          },
+          {
+            "id": 11,
+            "row": 4,
+            "col": 7,
+            "type": "frost"
+          },
+          {
+            "id": 12,
+            "row": 4,
+            "col": 10,
+            "type": "frost"
+          },
+          {
+            "id": 13,
+            "row": 1,
+            "col": 3,
+            "type": "bomb"
+          },
+          {
+            "id": 14,
+            "row": 4,
+            "col": 3,
+            "type": "frost"
+          }
+        ],
+        "terrain": [
+          {
+            "row": 0,
+            "col": 4,
+            "type": "trap",
+            "phase": 30
+          },
+          {
+            "row": 2,
+            "col": 3,
+            "type": "road",
+            "phase": 30
+          },
+          {
+            "row": 3,
+            "col": 2,
+            "type": "road",
+            "phase": 60
+          },
+          {
+            "row": 0,
+            "col": 8,
+            "type": "road",
+            "phase": 60
+          }
+        ],
+        "budget": 25,
+        "fallback": false,
+        "fingerprint": "181c670"
+      },
+      "replay": {
+        "schema": 1,
+        "seed": "ZVP-G1-7J2K9Q",
+        "difficulty": "normal",
+        "generatorVersion": "G1",
+        "rulesVersion": "R1",
+        "fingerprint": "181c670",
+        "loadout": [
+          "basic",
+          "armor",
+          "runner",
+          "digger",
+          "bomber",
+          "commander"
+        ],
+        "commands": [
+          {
+            "type": "deploy",
+            "tick": 1,
+            "order": 1,
+            "unit": "basic",
+            "row": 3
+          },
+          {
+            "type": "deploy",
+            "tick": 16,
+            "order": 2,
+            "unit": "runner",
+            "row": 3
+          },
+          {
+            "type": "deploy",
+            "tick": 91,
+            "order": 3,
+            "unit": "basic",
+            "row": 3
+          },
+          {
+            "type": "deploy",
+            "tick": 181,
+            "order": 4,
+            "unit": "basic",
+            "row": 3
+          },
+          {
+            "type": "deploy",
+            "tick": 271,
+            "order": 5,
+            "unit": "basic",
+            "row": 3
+          },
+          {
+            "type": "deploy",
+            "tick": 406,
+            "order": 6,
+            "unit": "basic",
+            "row": 3
+          },
+          {
+            "type": "deploy",
+            "tick": 496,
+            "order": 7,
+            "unit": "basic",
+            "row": 3
+          },
+          {
+            "type": "deploy",
+            "tick": 646,
+            "order": 8,
+            "unit": "basic",
+            "row": 3
+          }
+        ],
+        "finalTick": 767,
+        "checksum": "1f367409"
+      }
+    }
+  ],
+  "storage": "{\"schema\":1,\"records\":{\"ZVP-G1-DAWN01:G1:R1:easy\":{\"seed\":\"ZVP-G1-DAWN01\",\"difficulty\":\"easy\",\"generatorVersion\":\"G1\",\"rulesVersion\":\"R1\",\"best\":746,\"last\":746,\"attempts\":1,\"wins\":1,\"grade\":\"A\",\"history\":[{\"ticks\":746,\"date\":\"2026-10-23T09:17:35.960Z\",\"grade\":\"A\"}],\"replay\":{\"schema\":1,\"seed\":\"ZVP-G1-DAWN01\",\"difficulty\":\"easy\",\"generatorVersion\":\"G1\",\"rulesVersion\":\"R1\",\"fingerprint\":\"7d27a57\",\"loadout\":[\"basic\",\"armor\",\"runner\",\"digger\",\"bomber\",\"commander\"],\"commands\":[{\"type\":\"deploy\",\"tick\":1,\"order\":1,\"unit\":\"basic\",\"row\":4},{\"type\":\"deploy\",\"tick\":16,\"order\":2,\"unit\":\"runner\",\"row\":4},{\"type\":\"deploy\",\"tick\":91,\"order\":3,\"unit\":\"basic\",\"row\":4},{\"type\":\"deploy\",\"tick\":181,\"order\":4,\"unit\":\"basic\",\"row\":4},{\"type\":\"deploy\",\"tick\":271,\"order\":5,\"unit\":\"basic\",\"row\":4},{\"type\":\"deploy\",\"tick\":406,\"order\":6,\"unit\":\"basic\",\"row\":4},{\"type\":\"deploy\",\"tick\":571,\"order\":7,\"unit\":\"basic\",\"row\":4},{\"type\":\"deploy\",\"tick\":736,\"order\":8,\"unit\":\"basic\",\"row\":4}],\"finalTick\":746,\"checksum\":\"45bd028e\"}},\"ZVP-G1-BLOOM3:G1:R1:extreme\":{\"seed\":\"ZVP-G1-BLOOM3\",\"difficulty\":\"extreme\",\"generatorVersion\":\"G1\",\"rulesVersion\":\"R1\",\"best\":1007,\"last\":1007,\"attempts\":1,\"wins\":1,\"grade\":\"A\",\"history\":[{\"ticks\":1007,\"date\":\"2026-10-23T09:17:35.982Z\",\"grade\":\"A\"}],\"replay\":{\"schema\":1,\"seed\":\"ZVP-G1-BLOOM3\",\"difficulty\":\"extreme\",\"generatorVersion\":\"G1\",\"rulesVersion\":\"R1\",\"fingerprint\":\"e5be986b\",\"loadout\":[\"basic\",\"armor\",\"runner\",\"digger\",\"bomber\",\"commander\"],\"commands\":[{\"type\":\"deploy\",\"tick\":1,\"order\":1,\"unit\":\"basic\",\"row\":4},{\"type\":\"deploy\",\"tick\":16,\"order\":2,\"unit\":\"runner\",\"row\":4},{\"type\":\"deploy\",\"tick\":91,\"order\":3,\"unit\":\"basic\",\"row\":4},{\"type\":\"deploy\",\"tick\":181,\"order\":4,\"unit\":\"basic\",\"row\":4},{\"type\":\"deploy\",\"tick\":331,\"order\":5,\"unit\":\"basic\",\"row\":4},{\"type\":\"deploy\",\"tick\":421,\"order\":6,\"unit\":\"basic\",\"row\":4},{\"type\":\"deploy\",\"tick\":571,\"order\":7,\"unit\":\"basic\",\"row\":4},{\"type\":\"deploy\",\"tick\":661,\"order\":8,\"unit\":\"basic\",\"row\":4},{\"type\":\"deploy\",\"tick\":811,\"order\":9,\"unit\":\"basic\",\"row\":4},{\"type\":\"deploy\",\"tick\":976,\"order\":10,\"unit\":\"basic\",\"row\":4}],\"finalTick\":1007,\"checksum\":\"15ea4d21\"}},\"ZVP-G1-7J2K9Q:G1:R1:normal\":{\"seed\":\"ZVP-G1-7J2K9Q\",\"difficulty\":\"normal\",\"generatorVersion\":\"G1\",\"rulesVersion\":\"R1\",\"best\":767,\"last\":767,\"attempts\":1,\"wins\":1,\"grade\":\"A\",\"history\":[{\"ticks\":767,\"date\":\"2026-10-23T09:17:35.991Z\",\"grade\":\"A\"}],\"replay\":{\"schema\":1,\"seed\":\"ZVP-G1-7J2K9Q\",\"difficulty\":\"normal\",\"generatorVersion\":\"G1\",\"rulesVersion\":\"R1\",\"fingerprint\":\"181c670\",\"loadout\":[\"basic\",\"armor\",\"runner\",\"digger\",\"bomber\",\"commander\"],\"commands\":[{\"type\":\"deploy\",\"tick\":1,\"order\":1,\"unit\":\"basic\",\"row\":3},{\"type\":\"deploy\",\"tick\":16,\"order\":2,\"unit\":\"runner\",\"row\":3},{\"type\":\"deploy\",\"tick\":91,\"order\":3,\"unit\":\"basic\",\"row\":3},{\"type\":\"deploy\",\"tick\":181,\"order\":4,\"unit\":\"basic\",\"row\":3},{\"type\":\"deploy\",\"tick\":271,\"order\":5,\"unit\":\"basic\",\"row\":3},{\"type\":\"deploy\",\"tick\":406,\"order\":6,\"unit\":\"basic\",\"row\":3},{\"type\":\"deploy\",\"tick\":496,\"order\":7,\"unit\":\"basic\",\"row\":3},{\"type\":\"deploy\",\"tick\":646,\"order\":8,\"unit\":\"basic\",\"row\":3}],\"finalTick\":767,\"checksum\":\"1f367409\"}}}}"
+}
